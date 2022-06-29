@@ -1,12 +1,12 @@
-package com.example.moviewmvvm.single_movie_details
+package com.example.moviewmvvm.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.moviewmvvm.R
 
-class SingleMovie : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_single_movie)
+        setContentView(R.layout.activity_main)
     }
 }

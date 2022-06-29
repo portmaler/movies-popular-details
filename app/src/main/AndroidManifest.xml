@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MoviewMVVM">
         <activity
-            android:name=".single_movie_details.SingleMovie"
+            android:name="com.example.moviewmvvm.ui.single_movie_details.SingleMovie"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
